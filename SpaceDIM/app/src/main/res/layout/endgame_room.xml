@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/endgameRoomTopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="160dp"
+            android:paddingEnd="160dp"
+            android:text="@string/game_over" />
+
+        <ImageView
+            android:id="@+id/engameRoomImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/engameRoomFinalMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingStart="160dp"
+            android:paddingEnd="160dp"
+            android:text="@string/textview" />
+
+        <TextView
+            android:id="@+id/endGameScoreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingStart="160dp"
+            android:paddingEnd="160dp"
+            android:text="@string/your_score_is" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="150dp"
+            android:text="@string/button" />
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
